@@ -21,6 +21,12 @@
 		4CEE1F012BBEF9F900C9A66E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */; };
 		4CEE1F022BBEF9F900C9A66E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */; };
 		4CEE1F052BBEFB0100C9A66E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4CEE1F042BBEFB0100C9A66E /* FirebaseAuth */; };
+		B15F3DE02BC88ED100324E73 /* VehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DDF2BC88ED100324E73 /* VehicleListViewController.swift */; };
+		B15F3DE22BC88EE300324E73 /* VehicleCollecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DE12BC88EE300324E73 /* VehicleCollecViewController.swift */; };
+		B15F3DE42BC88EFF00324E73 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DE32BC88EFF00324E73 /* RootViewController.swift */; };
+		B15F3DE62BC88F1F00324E73 /* VehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DE52BC88F1F00324E73 /* VehicleInfoViewController.swift */; };
+		B15F3DEC2BC8908B00324E73 /* RootCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DEB2BC8908B00324E73 /* RootCollectionViewCell.swift */; };
+		B15F3DEE2BC890A100324E73 /* VehicleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F3DED2BC890A100324E73 /* VehicleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		4CEE1EEE2BBEF1F600C9A66E /* WheelsOnHireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsOnHireUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CEE1EFD2BBEF77000C9A66E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B15F3DDF2BC88ED100324E73 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
+		B15F3DE12BC88EE300324E73 /* VehicleCollecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCollecViewController.swift; sourceTree = "<group>"; };
+		B15F3DE32BC88EFF00324E73 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B15F3DE52BC88F1F00324E73 /* VehicleInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleInfoViewController.swift; sourceTree = "<group>"; };
+		B15F3DEB2BC8908B00324E73 /* RootCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCollectionViewCell.swift; sourceTree = "<group>"; };
+		B15F3DED2BC890A100324E73 /* VehicleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,12 @@
 				4CEE1ED92BBEF1F600C9A66E /* Info.plist */,
 				4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */,
 				4CEE1EFD2BBEF77000C9A66E /* CreateAccountViewController.swift */,
+				B15F3DDF2BC88ED100324E73 /* VehicleListViewController.swift */,
+				B15F3DE12BC88EE300324E73 /* VehicleCollecViewController.swift */,
+				B15F3DE32BC88EFF00324E73 /* RootViewController.swift */,
+				B15F3DE52BC88F1F00324E73 /* VehicleInfoViewController.swift */,
+				B15F3DEB2BC8908B00324E73 /* RootCollectionViewCell.swift */,
+				B15F3DED2BC890A100324E73 /* VehicleCollectionViewCell.swift */,
 			);
 			path = WheelsOnHire;
 			sourceTree = "<group>";
@@ -277,9 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15F3DEC2BC8908B00324E73 /* RootCollectionViewCell.swift in Sources */,
 				4CEE1EFE2BBEF77000C9A66E /* CreateAccountViewController.swift in Sources */,
+				B15F3DE22BC88EE300324E73 /* VehicleCollecViewController.swift in Sources */,
+				B15F3DEE2BC890A100324E73 /* VehicleCollectionViewCell.swift in Sources */,
 				4CEE1ED02BBEF1F400C9A66E /* HomeViewController.swift in Sources */,
+				B15F3DE42BC88EFF00324E73 /* RootViewController.swift in Sources */,
 				4CEE1ECC2BBEF1F400C9A66E /* AppDelegate.swift in Sources */,
+				B15F3DE62BC88F1F00324E73 /* VehicleInfoViewController.swift in Sources */,
+				B15F3DE02BC88ED100324E73 /* VehicleListViewController.swift in Sources */,
 				4CEE1ECE2BBEF1F400C9A66E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
