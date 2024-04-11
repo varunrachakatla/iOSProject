@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DL1-hA-pJ3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DL1-hA-pJ3">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="LCt-6r-TeK" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NvB-6e-wRJ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="psi-gG-2fZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -28,9 +28,9 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="WheelsOnHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VfB-V4-znU">
@@ -65,7 +65,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In" cornerStyle="capsule"/>
                                 <connections>
-                                    <action selector="sigInClickeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="72O-sZ-13X"/>
+                                    <action selector="sigInClickeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nsu-ta-Obw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New User?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj8-cP-pfW">
@@ -90,6 +90,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="XNB-m5-tlk"/>
                     <connections>
+                        <outlet property="passwordOL" destination="Ant-9g-dBj" id="tg7-0n-dWX"/>
+                        <outlet property="userNameOL" destination="VfB-V4-znU" id="0Qj-nF-1aR"/>
                         <segue destination="LCt-6r-TeK" kind="show" identifier="goToNext" id="6tg-Ug-8hk"/>
                     </connections>
                 </viewController>
@@ -102,7 +104,7 @@
             <objects>
                 <viewController id="gW5-Dd-cEk" customClass="CreateAccountViewController" customModule="WheelsOnHire" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="32T-Cw-2It">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Olb-DR-306">
@@ -117,7 +119,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up" cornerStyle="capsule"/>
                                 <connections>
-                                    <action selector="signUpBtnClicked:" destination="gW5-Dd-cEk" eventType="touchUpInside" id="J7J-uJ-Blp"/>
+                                    <action selector="signUpBtnClicked:" destination="gW5-Dd-cEk" eventType="touchUpInside" id="PGZ-Jr-ave"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IJD-rK-9Lx">
@@ -134,7 +136,7 @@
                     <connections>
                         <outlet property="emailOL" destination="IJD-rK-9Lx" id="ihA-It-kLC"/>
                         <outlet property="passwordOL" destination="Olb-DR-306" id="Gmt-3y-D65"/>
-                        <segue destination="LCt-6r-TeK" kind="show" identifier="goToNext" id="zvx-Ra-ccQ"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToNext" id="vJz-m4-Svl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVZ-py-MzA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -161,7 +163,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zvx-Ra-ccQ"/>
+        <segue reference="vJz-m4-Svl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">

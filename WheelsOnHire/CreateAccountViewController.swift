@@ -17,7 +17,8 @@ class CreateAccountViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func signUpBtnClicked(_ sender: Any) {
+    
+    @IBAction func signUpBtnClicked(_ sender: UIButton) {
         guard let email = emailOL.text else{ return }
         guard let password = passwordOL.text else{ return }
         
@@ -26,11 +27,12 @@ class CreateAccountViewController: UIViewController {
                 print("error")
             }
             else{
-                //Go to 
+                //Go to
+                self.performSegue(withIdentifier:"goToNext", sender: self)
             }
         }
-        
     }
+
     
     /*
     // MARK: - Navigation
