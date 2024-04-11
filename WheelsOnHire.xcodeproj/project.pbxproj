@@ -61,7 +61,7 @@
 		4CEE1EEC2BBEF1F600C9A66E /* WheelsOnHireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsOnHireUITests.swift; sourceTree = "<group>"; };
 		4CEE1EEE2BBEF1F600C9A66E /* WheelsOnHireUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelsOnHireUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CEE1EFD2BBEF77000C9A66E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CEE1EFF2BBEF9F900C9A66E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B15F3DDF2BC88ED100324E73 /* VehicleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleListViewController.swift; sourceTree = "<group>"; };
 		B15F3DE12BC88EE300324E73 /* VehicleCollecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleCollecViewController.swift; sourceTree = "<group>"; };
 		B15F3DE32BC88EFF00324E73 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
